@@ -1,12 +1,13 @@
 {
   "name": "@modyqyw/stylelint-config-css",
-  "version": "1.0.0",
-  "description": "An Stylelint shareable config for css.",
+  "version": "1.0.1",
+  "description": "An Stylelint shareable config for css. Also support miniprograms.",
   "main": "index.js",
   "keywords": [
     "stylelint",
     "config",
-    "css"
+    "css",
+    "miniprogram"
   ],
   "author": "ModyQyW <wurui7@mail3.sysu.edu.cn>",
   "license": "MIT",
