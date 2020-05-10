@@ -34,10 +34,11 @@ module.exports = {
 ```json
 {
   "css.validate": false,
-  "css.validate": false,
-  "css.validate": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   }
 }
 ```
