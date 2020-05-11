@@ -1,6 +1,13 @@
 module.exports = {
   extends: ["stylelint-config-twbs-bootstrap/css"],
   rules: {
+    "comment-empty-line-before": [
+      "always",
+      {
+        except: ["first-nested"],
+        ignore: ["after-comment", "stylelint-commands"],
+      },
+    ],
     "selector-max-class": 8,
     "selector-max-combinators": 8,
     "selector-max-compound-selectors": 8,
