@@ -7,13 +7,13 @@ A Stylelint shareable config for css. Also support miniprograms.
 - Install the config.
 
 ```sh
-npm i stylelint@~13.3.0 @modyqyw/stylelint-config-css@~1.0.0 -D
+npm i stylelint@^13.0.0 @modyqyw/stylelint-config-css@~1.0.0 -D
 ```
 
 For yarn, run scripts below.
 
 ```sh
-yarn add stylelint@~13.3.0 @modyqyw/stylelint-config-css@~1.0.0 -D
+yarn add stylelint@^13.0.0 @modyqyw/stylelint-config-css@~1.0.0 -D
 ```
 
 - Set up.
@@ -34,10 +34,18 @@ module.exports = {
 ```json
 {
   "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
   "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[scss]": {
     "editor.defaultFormatter": "stylelint.vscode-stylelint"
   }
 }
