@@ -1,6 +1,6 @@
 {
   "name": "@modyqyw/stylelint-config-css",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A Stylelint shareable config for css. Also support miniprograms.",
   "keywords": [
     "stylelint",
