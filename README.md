@@ -38,15 +38,6 @@ module.exports = {
   "scss.validate": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
-  },
-  "[css]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "stylelint.vscode-stylelint"
   }
 }
 ```
