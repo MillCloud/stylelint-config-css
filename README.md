@@ -38,6 +38,17 @@ module.exports = {
   "scss.validate": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
+  },
+  "files.associations": {
+    "*.wxml": "html",
+    "*.wxs": "javascript",
+    "*.wxss": "css",
+    "*.axml": "html",
+    "*.sjs": "javascript",
+    "*.acss": "css",
+    "*.wpy": "vue",
+    "*.nvue": "vue",
+    "*.ux": "vue"
   }
 }
 ```
