@@ -46,6 +46,11 @@ module.exports = {
     "*.axml": "html",
     "*.sjs": "javascript",
     "*.acss": "css",
+    "*.swan": "html",
+    "*.ttml": "html",
+    "*.ttss": "css",
+    "*.jxml": "html",
+    "*.jxss": "css",
     "*.wpy": "vue",
     "*.nvue": "vue",
     "*.ux": "vue"
